@@ -1,0 +1,60 @@
+*{
+  background-color: rgb(31, 31, 103)
+}
+h1{
+  margin-left: 41%;
+  color: aqua;
+}
+.custom-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; 
+  margin: auto;
+}
+
+.normal-button,
+.warn-button,
+.hint-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.normal-button {
+  background-color: green;
+  color:yellow;
+}
+
+.warn-button {
+  background-color: rgb(255, 0, 0);
+  color:yellow;
+}
+
+.warn-button.active {
+  background-color: rgb(38, 17, 17);
+  color: yellow;
+}
+
+.hint-button {
+  background-color: rgb(84, 84, 84);
+  color: yellow;
+}
+
+.hint-message {
+  font-style: italic;
+  color: #555;
+  margin-top: 5px;
+}
+.normal-button:hover{
+  background-color: black;
+}
+.warn-button:hover{
+  background-color: black;
+}
+.hint-button:hover{
+  background-color: rebeccapurple;
+}
